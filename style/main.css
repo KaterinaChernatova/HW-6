@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.inner{
+    padding-bottom: 18px;
+    width: 800px;
+}
+
+.inner .card {
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    background-color: bisque;
+    margin: 10px;
+}
+
+.inner .card img {
+    width: 130px;
+    height: 130px;
+    margin: 10px;
+}
+
+.inner .card .title{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.inner .card .text {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+}
